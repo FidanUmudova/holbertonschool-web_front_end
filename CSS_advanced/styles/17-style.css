@@ -1,4 +1,5 @@
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -45,11 +46,6 @@ body {
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
-}
-
-a {
-  color: var(--text-color);
-  text-decoration: none;
 }
 
 a:link {
@@ -101,7 +97,7 @@ a:active {
   font-weight: var(--font-weight-bold);
   margin: var(--section-title-margin);
   color: var(--section-title-color);
-} 
+}
 
 .section-tagline {
   color: var(--color-primary);
